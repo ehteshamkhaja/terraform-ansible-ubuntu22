@@ -22,7 +22,7 @@ pipeline {
      }
     }
     } 
-   stage('Apply patches on the Provisioned VM's'){
+   stage('Apply patches on the Provisioned VMs'){
  steps{
      sh 'ansible-playbook  -i /var/lib/jenkins/inventory/hosts ubuntu-22-patch/site.yml'
     }
