@@ -1,0 +1,46 @@
+.env
+inventory
+UBUNTU22-CIS/*.log
+UBUNTU22-CIS/*.retry
+UBUNTU22-CIS/.vagrant
+UBUNTU22-CIS/tests/*redhat-subscription
+UBUNTU22-CIS/tests/Dockerfile
+UBUNTU22-CIS/*.iso
+UBUNTU22-CIS/*.box
+UBUNTU22-CIS/packer_cache
+UBUNTU22-CIS/delete*
+UBUNTU22-CIS/ignore*
+# VSCode
+UBUNTU22-CIS/.vscode
+UBUNTU22-CIS/vagrant
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# DS_Store
+.DS_Store
+._*
+
+# Linux Editors
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+*.swp
+*.swo
+rh-creds.env
+travis.env
+
+# Lockdown-specific
+benchparse/
+*xccdf.xml
+*.retry
+
+# GitHub Action/Workflow files
+UBUNTU22-CIS/.github/
